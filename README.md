@@ -7,16 +7,5 @@ CLI-инструмент погоды (без реального API, но с л
 форматирование вывода
 история запросов
 тесты
-📁 Структура
-weather-cli-tool/
-│
-├── weather/
-│   ├── api.py
-│   ├── formatter.py
-│   └── history.py
-│
-├── tests/
-│   └── test_weather.py
-│
-├── .gitignore
-└── README.md
+
+Simple CLI weather tool
