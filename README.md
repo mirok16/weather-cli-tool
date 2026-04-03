@@ -9,3 +9,4 @@ CLI-инструмент погоды (без реального API, но с л
 тесты
 
 Simple CLI weather tool
+python weather/main.py
