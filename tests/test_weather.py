@@ -13,3 +13,11 @@ from weather.history import add_to_history, get_history
 def test_history():
     add_to_history({"city": "X"})
     assert len(get_history()) > 0
+import random
+
+def get_weather(city):
+    return {
+        "city": city,
+        "temp": random.randint(-10, 30),
+        "status": "sunny"
+    }
